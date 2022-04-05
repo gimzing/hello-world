@@ -57,8 +57,8 @@ Check that Go has installed by checking the version
 
 `git config --global credential.helper store`
 
-`git config --global user.email lukaperic93@gmail.com`
+`git config --global user.email EMAIL`
 
-`git config --global user.name gimzing`
+`git config --global user.name USER_NAME`
 
 Generate a personal access token from github and use it as the password when you do a push and it prompts you
