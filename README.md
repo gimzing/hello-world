@@ -52,3 +52,13 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 Check that Go has installed by checking the version
 
 `go version`
+
+## Git
+
+`git config --global credential.helper store`
+
+`git config --global user.email lukaperic93@gmail.com`
+
+`git config --global user.name gimzing`
+
+Generate a personal access token from github and use it as the password when you do a push and it prompts you
