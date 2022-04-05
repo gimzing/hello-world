@@ -17,6 +17,7 @@ If it says 2 then you are running WSL2
 Download Windows Terminal and set Ubuntu (the one with the Linux symbol) as the default
 
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
 
 ## VS Code
