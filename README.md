@@ -137,6 +137,12 @@ chmod 777 -R pgadmin
 ```
 `docker-compose up`
 
+## Firebase
+
+`curl -sL https://firebase.tools | bash`
+
+Then in firebase folder in platform-backend: `firebase emulators:start`
+
 ## Minikube
 
 `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb`
