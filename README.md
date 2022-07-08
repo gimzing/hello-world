@@ -66,6 +66,7 @@ Generate a personal access token from github and use it as the password when you
 # Linux Mint
 
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
 
 ## Git
