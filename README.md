@@ -89,6 +89,8 @@ Install Remote Containers extension and open platform-frontend in a new containe
 
 ## Go
 
+`sudo apt-get install build-essential`
+
 Same as above
 
 ## Docker Engine
