@@ -79,13 +79,18 @@ Generate a personal access token from github and use it as the password when you
 ## VS Code
 
 Download ubuntu/debian file from website
+
 `sudo apt install ./code_1.68.1-1655263094_amd64.deb`
+
+Install Remote Containers extension and open platform-frontend in a new container with Nodejs 16 and Typscript
 
 ## Go
 
 Same as above
 
-## Docker
+## Docker Engine
+
+https://docs.docker.com/engine/install/ubuntu/
 
 `sudo apt-get update`
 
@@ -108,9 +113,11 @@ sudo apt-get install \
 ```
 
 `sudo apt-get update`
+
 `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin`
 
 `sudo groupadd docker`
+
 `sudo usermod -aG docker $USER`
 
 `newgrp docker`
@@ -128,28 +135,35 @@ chmod 777 -R pgadmin
 ## Minikube
 
 `curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb`
+
 `sudo dpkg -i minikube_latest_amd64.deb`
 
 `minikube start`
 
 ## Kubectl
 
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management/
+
 `sudo apt-get install apt-transport-https ca-certificates gnupg`
+
 `echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list`
+
 `curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -`
+
 `sudo apt-get update && sudo apt-get install google-cloud-cli`
 
 `kubectl`
+
 `sudo apt-get update`
 
 `sudo apt-get install -y apt-transport-https ca-certificates curl`
+
 `sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg`
+
 `echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list`
+
 `sudo apt-get update`
+
 `sudo apt-get install -y kubectl`
+
 `kubectl version`
-
-
-
-
-
