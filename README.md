@@ -74,7 +74,9 @@ Generate a personal access token from github and use it as the password when you
 `sudo apt-get install git`
 
 `git config --global credential.helper store`
+
 `git config --global user.email EMAIL`
+
 `git config --global user.name USER_NAME`
 
 ## VS Code
