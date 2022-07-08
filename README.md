@@ -85,7 +85,7 @@ Download ubuntu/debian file from website
 
 `sudo apt install ./code_1.68.1-1655263094_amd64.deb`
 
-Install Remote Containers extension and open platform-frontend in a new container with Nodejs 16 and Typscript
+Install Remote Containers extension and open platform-frontend in a new container with Nodejs 16 and Typescript
 
 ## Go
 
