@@ -141,6 +141,8 @@ chmod 777 -R pgadmin
 
 `curl -sL https://firebase.tools | bash`
 
+`curl -sL https://firebase.tools | upgrade=true bash`
+
 Then in firebase folder in platform-backend: `firebase emulators:start`
 
 ## Minikube
